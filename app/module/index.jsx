@@ -1,7 +1,7 @@
 import React from 'react';
-import Sidebar from './../../shared/sidebar';
-import SidebarItem from './../../shared/sidebar/sidebar-item';
+import { Sidebar, SidebarItem } from './../../../react-components/';
 
+debugger
 import './module.scss';
 import svg from './../../assets/sample.svg';
 
