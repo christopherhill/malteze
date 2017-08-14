@@ -1,11 +1,11 @@
 import * as contentful from 'contentful';
-import { config } from './private';
+import { SPACE_ID, ACCESS_TOKEN } from './private';
 
 export default class Contentful {
   constructor() {
     this.client = contentful.createClient({
-      space: config.SPACE_ID,
-      accessToken: config.ACCESS_TOKEN,
+      space: SPACE_ID,
+      accessToken: ACCESS_TOKEN,
     });
     this.getAllResources = this.getAllResources.bind(this);
     this.getAllNews = this.getAllNews.bind(this);
