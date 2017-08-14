@@ -8,7 +8,7 @@ export default class Contentful {
       accessToken: ACCESS_TOKEN,
     });
     this.getAllResources = this.getAllResources.bind(this);
-    this.getAllNews = this.getAllNews.bind(this);
+    this.getAllVeterinarians = this.getAllVeterinarians.bind(this);
   }
 
   getAllResources() {
@@ -17,9 +17,9 @@ export default class Contentful {
     });
   }
 
-  getAllNews() {
+  getAllVeterinarians() {
     return this.client.getEntries({
-      content_type: 'news',
+      content_type: 'veternarians',
     });
   }
 

@@ -45,7 +45,7 @@ const App = () => (
             <SidebarItem index={6} Icon={grooming} color={colors[5]} description="Grooming" link="/grooming" />
             <SidebarItem index={7} Icon={health} color={colors[6]} description="Health" link="/health" />
             <SidebarItem index={8} Icon={training} color={colors[7]} description="Training" link="/training" />
-            <SidebarItem index={9} Icon={directory} color={colors[8]} description="Directory" link="/directory" />
+            <SidebarItem index={9} Icon={directory} color={colors[8]} description="Directory" link="/veterinarians" />
           </Sidebar>
         </div>
         <div className="column is-11">
