@@ -45,5 +45,6 @@ const VeterinarianDetail = (props) => {
 
 VeterinarianDetail.propTypes = {
   data: PropTypes.array.isRequired,
-}
+};
+
 export default VeterinarianDetail;

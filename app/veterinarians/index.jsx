@@ -21,7 +21,8 @@ class Veterinarians extends React.Component {
   render() {
     return (
       <div className="container">
-        <h2>Veterinarians</h2>
+        <br />
+        <h2 className="subtitle">Veterinarians</h2>
         <hr />
         {this.state.veterinarians.length && this.state.veterinarians.map((entry) => {
           return (<VeterinarianDetail data={entry.fields} />);
