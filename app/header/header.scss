@@ -1,0 +1,11 @@
+$color-highlight: #2FB8EC;
+.navbar {
+  border-bottom: 3px solid turquoise;
+  height: 5em;
+  .navbar-item {
+    margin-left: 1em;
+    h1.title { 
+      margin-left: .9em;
+    }
+  }
+}

@@ -4,7 +4,9 @@ import './module.scss';
 
 const Module = () =>
   (
-    <div className="module" />
+    <div className="module" >
+      <h2>Hi there super</h2>
+    </div>
   );
 
 export default Module;

@@ -36,9 +36,9 @@ export default {
       {
         test: /\.scss$/,
         use: [
-         'style-loader', 
-         { loader: 'css-loader', options: { importLoaders: 2 } },
-         'postcss-loader', 
+          'style-loader',
+          { loader: 'css-loader', options: { importLoaders: 2 } },
+          'postcss-loader',
         ],
         exclude: /node_modules/,
         include: [

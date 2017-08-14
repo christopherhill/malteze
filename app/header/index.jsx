@@ -1,25 +1,16 @@
 import React from 'react';
+import Logo from './../../assets/bone-logo.svg';
+import './header.scss';
 
-class Header extends React.Component {
-  render() {
-    return (
-      <nav className="navbar">
-        <div className="navbar-brand">
-          <a className="navbar-item" href="http://bulma.io">
-            <img 
-              src="http://bulma.io/images/bulma-logo.png" 
-              alt="Malteze: Your destination for the best in Maltese products and services." 
-              width="112" height="28" />
-          </a>
-          <div className="navbar-burger">
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-        </div>
-      </nav>
-    );
-  }
-}
+const Header = () => (
+  <nav className="navbar">
+    <div className="navbar-brand">
+      <a className="navbar-item" href="http://malteze.com">
+        <Logo height="50" />
+        <h1 className="title">Malteze</h1>
+      </a>
+    </div>
+  </nav>
+);
 
 export default Header;

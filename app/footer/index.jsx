@@ -1,26 +1,31 @@
 import React from 'react';
 
-class Footer extends React.Component {
-  render() {
-    return (
-      <footer className="footer">
-        <div className="container">
-          <div className="content has-text-centered">
-            <p>
-              <strong>Malteze</strong> by <a href="http://jgthms.com">Christopher Hill</a>. The source code is licensed
-              <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
-              is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC ANS 4.0</a>.
-            </p>
-            <p>
-              <a className="icon" href="https://github.com/jgthms/bulma">
-                <i className="fa fa-github"></i>
-              </a>
-            </p>
-          </div>
-        </div>
-      </footer>
-    );
-  }
-}
+const Footer = () => (
+  <footer className="footer">
+    <div className="container">
+      <div className="content has-text-centered">
+        <p>
+          <span>
+            <strong>Malteze </strong>
+            is the premier source for the best articles, products and reviews for Maltese dogs.
+          </span>
+          <br />
+          <strong>Malteze</strong> is a digital property of <a href="http://jgthms.com">Modulation Labs</a>.
+        </p>
+        <p>
+          <a className="icon" href="https://twitter.com/maltezey">
+            <i className="fa fa-twitter" />
+          </a>
+          <a className="icon" href="https://www.facebook.com/maltezey/">
+            <i className="fa fa-facebook" />
+          </a>
+        </p>
+        <p>
+          Pet Icons <a href='http://www.freepik.com/free-vector/set-of-hand-drawn-elements-pet_935064.htm'>Designed by Freepik.</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+);
 
 export default Footer;
