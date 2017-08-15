@@ -17,6 +17,12 @@ export default class Contentful {
     });
   }
 
+  getAllProducts() {
+    return this.client.getEntries({
+      content_type: 'product',
+    });
+  }
+  
   getAllVeterinarians() {
     return this.client.getEntries({
       content_type: 'veternarians',

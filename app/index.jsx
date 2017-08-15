@@ -38,14 +38,16 @@ const App = () => (
         <div className="column is-1">
           <Sidebar>
             <SidebarItem index={1} Icon={home} color={colors[0]} description="Home" link="/" />
-            <SidebarItem index={2} Icon={food} color={colors[1]} description="Food" link="/food" />
-            <SidebarItem index={3} Icon={beds} color={colors[2]} description="Beds" link="/beds" />
+            <SidebarItem index={2} Icon={food} color={colors[1]} description="Food & Treats" link="/food" />
+            <SidebarItem index={3} Icon={beds} color={colors[2]} description="Shelter" link="/beds" />
             <SidebarItem index={4} Icon={toys} color={colors[3]} description="Toys" link="/toys" />
-            <SidebarItem index={5} Icon={clothing} color={colors[4]} description="Clothing" link="/clothing" />
+            <SidebarItem index={5} Icon={clothing} color={colors[4]} description="Supplies" link="/supplies" />
             <SidebarItem index={6} Icon={grooming} color={colors[5]} description="Grooming" link="/grooming" />
             <SidebarItem index={7} Icon={health} color={colors[6]} description="Health" link="/health" />
             <SidebarItem index={8} Icon={training} color={colors[7]} description="Training" link="/training" />
-            <SidebarItem index={9} Icon={directory} color={colors[8]} description="Directory" link="/veterinarians" />
+            <SidebarItem index={9} Icon={clothing} color={colors[8]} description="Outdoor" link="/outdoor" />
+            <SidebarItem index={10} Icon={home} color={colors[9]} description="Books" link="/books" />
+            <SidebarItem index={11} Icon={directory} color={colors[8]} description="Directory" link="/veterinarians" />
           </Sidebar>
         </div>
         <div className="column is-11">
