@@ -15,6 +15,7 @@ import grooming from './../assets/menu-grooming.svg';
 import health from './../assets/menu-health.svg';
 import training from './../assets/menu-training.svg';
 import directory from './../assets/menu-directory.svg';
+import Tabs from './tabs/';
 
 import './app.scss';
 
@@ -34,6 +35,7 @@ const App = () => (
   <BrowserRouter>
     <div style={{ width: '100%' }}>
       <Header />
+      <Tabs />
       <div className="columns is-gapless">
         <div className="column is-1">
           <Sidebar>

@@ -22,7 +22,13 @@ export default class Contentful {
       content_type: 'product',
     });
   }
-  
+
+  getAllArticles() {
+    return this.client.getEntries({
+      content_type: 'article',
+    });
+  }
+
   getAllVeterinarians() {
     return this.client.getEntries({
       content_type: 'veternarians',

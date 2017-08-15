@@ -4,11 +4,13 @@ import Module from './module/';
 import Main from './main/';
 import Veterinarians from './veterinarians/';
 import Products from './products/';
+import Articles from './articles/';
 
 const Routes = () => (
   <Switch>
     <Route exact path="/" component={Main} />
     <Route path="/module" component={Module} />
+    <Route path="/articles" component={Articles} />
     <Route path="/veterinarians" component={Veterinarians} />
     <Route path="/grooming" render={() => (<Products type={['grooming']} />)} />
     <Route path="/books" render={() => (<Products type={['books']} />)} />
