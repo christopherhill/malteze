@@ -1,0 +1,11 @@
+.main{
+  &.container {
+    background-image: url('./../../assets/maltese-in-grass.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    max-width: inherit;
+  }
+}
+.columns.is-gapless:not(:last-child) { margin-bottom: 0; }

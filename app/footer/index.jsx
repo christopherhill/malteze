@@ -10,7 +10,7 @@ const Footer = () => (
             is the premier source for the best articles, products and reviews for Maltese dogs.
           </span>
           <br />
-          <strong>Malteze</strong> is a digital property of <a href="http://jgthms.com">Modulation Labs</a>.
+          <strong>Malteze</strong> is a digital property of <a href="https://www.modulation.io">Modulation Labs</a>.
         </p>
         <p>
           <a className="icon" href="https://twitter.com/maltezey">

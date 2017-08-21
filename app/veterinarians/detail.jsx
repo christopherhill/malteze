@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 
 const VeterinarianDetail = (props) => {
   const { 
@@ -19,9 +20,10 @@ const VeterinarianDetail = (props) => {
         <div className="media-content">
           <div className="content">
             <p>
-              <strong>{nameOfClinic}</strong> <small>{website}</small> <small>31m</small>
+              <strong>{nameOfClinic}</strong><br/>
+              <Link to={website}>{website}</Link>
               <br />
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.
+              {/* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis. */}
             </p>
           </div>
           <nav className="level is-mobile">

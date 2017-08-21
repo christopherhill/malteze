@@ -35,7 +35,7 @@ const App = () => (
   <BrowserRouter>
     <div style={{ width: '100%' }}>
       <Header />
-      <Tabs />
+      {/* <Tabs /> */}
       <div className="columns is-gapless">
         <div className="column is-1">
           <Sidebar>

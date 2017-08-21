@@ -55,6 +55,14 @@ export default {
         exclude: /node_modules/,
         include: [path.resolve(__dirname, 'assets')],
       },
+      {
+        test: /(\.jpg)|(\.jpeg)/,
+        use: [
+          'file-loader',
+        ],
+        exclude: /node_modules/,
+        include: [path.resolve(__dirname, 'assets')],
+      },
     ],
   },
 
