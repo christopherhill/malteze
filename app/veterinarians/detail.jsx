@@ -20,8 +20,8 @@ const VeterinarianDetail = (props) => {
         <div className="media-content">
           <div className="content">
             <p>
-              <strong>{nameOfClinic}</strong><br/>
-              <Link to={website}>{website}</Link>
+              <strong>{nameOfClinic}</strong><br />
+              <a target="_blank" href={website}>{website}</a>
               <br />
               {/* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis. */}
             </p>
