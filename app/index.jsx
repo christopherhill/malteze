@@ -50,6 +50,7 @@ const App = () => (
             <SidebarItem index={9} Icon={clothing} color={colors[8]} description="Outdoor" link="/outdoor" />
             <SidebarItem index={10} Icon={home} color={colors[9]} description="Books" link="/books" />
             <SidebarItem index={11} Icon={directory} color={colors[8]} description="Directory" link="/veterinarians" />
+            <SidebarItem index={12} Icon={home} color={colors[3]} description="White Noise" link="/sounds" />
           </Sidebar>
         </div>
         <div className="column is-11">
