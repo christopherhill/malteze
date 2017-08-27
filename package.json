@@ -8,7 +8,7 @@
     "lint": "./node_modules/.bin/eslint **/*.js",
     "start": "webpack-dev-server --config=webpack.config.babel.js",
     "build": "webpack --config=webpack.config.babel.js; yarn sitemap",
-    "sitemap": "NODE_ENV=production; babel-node ./sitemap.babel.js"
+    "sitemap": "./node_modules/babel-cli/bin/babel-node.js ./sitemap.babel.js"
   },
   "author": "Christopher Hill",
   "license": "ISC",
